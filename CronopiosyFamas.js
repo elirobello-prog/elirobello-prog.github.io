@@ -11,34 +11,34 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_51 = function() {
+(lib.CachedTexturedBitmap_137 = function() {
 	this.initialize(ss["CronopiosyFamas_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_52 = function() {
-	this.initialize(img.CachedTexturedBitmap_52);
+(lib.CachedTexturedBitmap_138 = function() {
+	this.initialize(img.CachedTexturedBitmap_138);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2076,1015);
+p.nominalBounds = new cjs.Rectangle(0,0,2078,1017);
 
 
-(lib.CachedTexturedBitmap_53 = function() {
+(lib.CachedTexturedBitmap_139 = function() {
 	this.initialize(ss["CronopiosyFamas_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_54 = function() {
+(lib.CachedTexturedBitmap_140 = function() {
 	this.initialize(ss["CronopiosyFamas_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_55 = function() {
+(lib.CachedTexturedBitmap_141 = function() {
 	this.initialize(ss["CronopiosyFamas_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -65,7 +65,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_55();
+	this.instance = new lib.CachedTexturedBitmap_141();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,0,0.5,0.5);
 
@@ -78,9 +78,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_52();
+	this.instance = new lib.CachedTexturedBitmap_138();
 	this.instance.parent = this;
-	this.instance.setTransform(61.5,55.15,0.5,0.5);
+	this.instance.setTransform(61,54.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -91,7 +91,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_54();
+	this.instance = new lib.CachedTexturedBitmap_140();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.35,-245.35,0.5,0.5);
 
@@ -104,7 +104,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_53();
+	this.instance = new lib.CachedTexturedBitmap_139();
 	this.instance.parent = this;
 	this.instance.setTransform(-22.3,-25.5,0.8645,0.8645);
 
@@ -316,7 +316,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.cuadrado_1.parent = this;
 	this.cuadrado_1.setTransform(305.35,298.45);
 
-	this.instance = new lib.CachedTexturedBitmap_51();
+	this.instance = new lib.CachedTexturedBitmap_137();
 	this.instance.parent = this;
 	this.instance.setTransform(598.6,54.55,0.5,0.5);
 
@@ -794,7 +794,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.Cuadricula).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(635,413.1,470.20000000000005,150);
+p.nominalBounds = new cjs.Rectangle(635,413.1,470.20000000000005,150.10000000000002);
 // library properties:
 lib.properties = {
 	id: '9186097CE7D8A84083C5BA05F1C1B9BC',
@@ -804,8 +804,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_52.png?1768442394108", id:"CachedTexturedBitmap_52"},
-		{src:"images/CronopiosyFamas_atlas_.png?1768442394092", id:"CronopiosyFamas_atlas_"}
+		{src:"images/CachedTexturedBitmap_138.png?1768481731821", id:"CachedTexturedBitmap_138"},
+		{src:"images/CronopiosyFamas_atlas_.png?1768481731805", id:"CronopiosyFamas_atlas_"}
 	],
 	preloads: []
 };

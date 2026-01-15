@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CronopiosyFamas verde_atlas_", frames: [[0,0,1032,1013],[1015,1357,1004,12],[1015,1015,1006,340],[1034,87,53,53],[0,1015,1013,1017],[1034,0,94,85]]}
+		{name:"CronopiosyFamas verde_atlas_", frames: [[0,1368,1004,12],[0,1019,1018,347],[96,1382,53,53],[0,0,1013,1017],[0,1382,94,85]]}
 ];
 
 
@@ -11,50 +11,43 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_100 = function() {
+(lib.CachedTexturedBitmap_121 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_94 = function() {
+(lib.CachedTexturedBitmap_122 = function() {
+	this.initialize(img.CachedTexturedBitmap_122);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2078,1017);
+
+
+(lib.CachedTexturedBitmap_123 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_95 = function() {
-	this.initialize(img.CachedTexturedBitmap_95);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2076,1015);
-
-
-(lib.CachedTexturedBitmap_96 = function() {
+(lib.CachedTexturedBitmap_124 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_97 = function() {
+(lib.CachedTexturedBitmap_125 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_98 = function() {
+(lib.CachedTexturedBitmap_126 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedTexturedBitmap_99 = function() {
-	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
-	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -75,24 +68,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.Símbolo_123_Capa_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_100();
-	this.instance.parent = this;
-	this.instance.setTransform(-0.95,1,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Símbolo_123_Capa_1, null, null);
-
-
 (lib.fama_mc_Capa_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_99();
+	this.instance = new lib.CachedTexturedBitmap_126();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,0,0.5,0.5);
 
@@ -105,20 +85,33 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_95();
+	this.instance = new lib.CachedTexturedBitmap_122();
 	this.instance.parent = this;
-	this.instance.setTransform(61.5,55.15,0.5,0.5);
+	this.instance.setTransform(61,54.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Escena_1_Cuadricula, null, null);
 
 
+(lib.Escena_1_Capa_2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Capa_2
+	this.instance = new lib.CachedTexturedBitmap_123();
+	this.instance.parent = this;
+	this.instance.setTransform(325.4,683.15,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Escena_1_Capa_2, null, null);
+
+
 (lib.cuadrado_Capa_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_98();
+	this.instance = new lib.CachedTexturedBitmap_125();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.35,-245.35,0.5,0.5);
 
@@ -131,33 +124,13 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_97();
+	this.instance = new lib.CachedTexturedBitmap_124();
 	this.instance.parent = this;
 	this.instance.setTransform(-22.3,-25.5,0.8645,0.8645);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.ch_Capa_1, null, null);
-
-
-(lib.Símbolo123 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Capa_1_obj_
-	this.Capa_1 = new lib.Símbolo_123_Capa_1();
-	this.Capa_1.name = "Capa_1";
-	this.Capa_1.parent = this;
-	this.Capa_1.setTransform(257.1,254.2,1,1,0,0,0,257.1,254.2);
-	this.Capa_1.depth = 0;
-	this.Capa_1.isAttachedToCamera = 0
-	this.Capa_1.isAttachedToMask = 0
-	this.Capa_1.layerDepth = 0
-	this.Capa_1.layerIndex = 0
-	this.Capa_1.maskLayerName = 0
-
-	this.timeline.addTween(cjs.Tween.get(this.Capa_1).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Símbolo123, new cjs.Rectangle(-0.9,1,516,506.5), null);
 
 
 (lib.fama_mc = function(mode,startPosition,loop) {
@@ -289,39 +262,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.ch, new cjs.Rectangle(-22.3,-25.5,45.8,45.8), null);
 
 
-(lib._235_Capa_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Capa_1
-	this.instance = new lib.Símbolo123();
-	this.instance.parent = this;
-	this.instance.setTransform(251.55,4.35,1,0.3368,0,0,0,255.6,18.9);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib._235_Capa_1, null, null);
-
-
-(lib._235 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Capa_1_obj_
-	this.Capa_1 = new lib._235_Capa_1();
-	this.Capa_1.name = "Capa_1";
-	this.Capa_1.parent = this;
-	this.Capa_1.setTransform(253,83.6,1,1,0,0,0,253,83.6);
-	this.Capa_1.depth = 0;
-	this.Capa_1.isAttachedToCamera = 0
-	this.Capa_1.isAttachedToMask = 0
-	this.Capa_1.layerDepth = 0
-	this.Capa_1.layerIndex = 0
-	this.Capa_1.maskLayerName = 0
-
-	this.timeline.addTween(cjs.Tween.get(this.Capa_1).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib._235, new cjs.Rectangle(-5,-1.6,516,170.5), null);
-
-
 (lib.Escena_1_clips = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -396,30 +336,13 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.cuadrado_1.parent = this;
 	this.cuadrado_1.setTransform(305.35,298.45);
 
-	this.instance = new lib.CachedTexturedBitmap_94();
+	this.instance = new lib.CachedTexturedBitmap_121();
 	this.instance.parent = this;
 	this.instance.setTransform(598.6,54.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.cuadrado_1},{t:this.clipo_7},{t:this.clipo_8},{t:this.clipo_9},{t:this.clipo_10},{t:this.clipo_11},{t:this.clipo_12},{t:this.clipo_13},{t:this.clipo_14},{t:this.clipo_15},{t:this.clipo_16},{t:this.clipo_17},{t:this.clipo_18},{t:this.cuadrado}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Escena_1_clips, null, null);
-
-
-(lib.Escena_1_Capa_2 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Capa_2
-	this.instance = new lib._235();
-	this.instance.parent = this;
-	this.instance.setTransform(583.95,769.35,1,1,0,0,0,252.9,83.7);
-
-	this.instance_1 = new lib.CachedTexturedBitmap_96();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(328.4,686.15,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.Escena_1_Capa_2, null, null);
 
 
 // stage content:
@@ -894,7 +817,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.Capa_2 = new lib.Escena_1_Capa_2();
 	this.Capa_2.name = "Capa_2";
 	this.Capa_2.parent = this;
-	this.Capa_2.setTransform(584.1,770.1,1,1,0,0,0,584.1,770.1);
+	this.Capa_2.setTransform(579.9,769.9,1,1,0,0,0,579.9,769.9);
 	this.Capa_2.depth = 0;
 	this.Capa_2.isAttachedToCamera = 0
 	this.Capa_2.isAttachedToMask = 0
@@ -905,7 +828,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.Capa_2).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(635,503.1,470.20000000000005,353.1);
+p.nominalBounds = new cjs.Rectangle(635,503.1,470.20000000000005,353.6);
 // library properties:
 lib.properties = {
 	id: '9186097CE7D8A84083C5BA05F1C1B9BC',
@@ -915,8 +838,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_95.png?1768445021952", id:"CachedTexturedBitmap_95"},
-		{src:"images/CronopiosyFamas verde_atlas_.png?1768445021931", id:"CronopiosyFamas verde_atlas_"}
+		{src:"images/CachedTexturedBitmap_122.png?1768481539417", id:"CachedTexturedBitmap_122"},
+		{src:"images/CronopiosyFamas verde_atlas_.png?1768481539400", id:"CronopiosyFamas verde_atlas_"}
 	],
 	preloads: []
 };

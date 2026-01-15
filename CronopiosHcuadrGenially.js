@@ -11,37 +11,37 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_10 = function() {
+(lib.CachedTexturedBitmap_142 = function() {
+	this.initialize(img.CachedTexturedBitmap_142);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2077,507);
+
+
+(lib.CachedTexturedBitmap_143 = function() {
 	this.initialize(ss["CronopiosHcuadrGenially_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_11 = function() {
-	this.initialize(img.CachedTexturedBitmap_11);
+(lib.CachedTexturedBitmap_144 = function() {
+	this.initialize(img.CachedTexturedBitmap_144);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,3152,1010);
+p.nominalBounds = new cjs.Rectangle(0,0,3154,1012);
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_145 = function() {
 	this.initialize(ss["CronopiosHcuadrGenially_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_146 = function() {
 	this.initialize(ss["CronopiosHcuadrGenially_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedTexturedBitmap_9 = function() {
-	this.initialize(img.CachedTexturedBitmap_9);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2077,507);// helper functions:
+// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -64,9 +64,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_11();
+	this.instance = new lib.CachedTexturedBitmap_144();
 	this.instance.parent = this;
-	this.instance.setTransform(61.5,55.15,0.5,0.5);
+	this.instance.setTransform(61,54.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -77,7 +77,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_13();
+	this.instance = new lib.CachedTexturedBitmap_146();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.35,-245.35,0.5,0.5);
 
@@ -90,7 +90,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_12();
+	this.instance = new lib.CachedTexturedBitmap_145();
 	this.instance.parent = this;
 	this.instance.setTransform(-22.3,-25.5,0.8645,0.8645);
 
@@ -143,7 +143,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// clips
-	this.instance = new lib.CachedTexturedBitmap_10();
+	this.instance = new lib.CachedTexturedBitmap_143();
 	this.instance.parent = this;
 	this.instance.setTransform(1139.15,61.2,0.5,0.5);
 
@@ -242,7 +242,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.cuadrado.parent = this;
 	this.cuadrado.setTransform(305.35,298.45);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_9();
+	this.instance_1 = new lib.CachedTexturedBitmap_142();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(598.6,54.55,0.5,0.5);
 
@@ -822,7 +822,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.Cuadricula).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(905,413.1,732.7,148.5);
+p.nominalBounds = new cjs.Rectangle(905,413.1,733,148.5);
 // library properties:
 lib.properties = {
 	id: '9186097CE7D8A84083C5BA05F1C1B9BC',
@@ -832,9 +832,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_11.png?1768424512807", id:"CachedTexturedBitmap_11"},
-		{src:"images/CachedTexturedBitmap_9.png?1768424512807", id:"CachedTexturedBitmap_9"},
-		{src:"images/CronopiosHcuadrGenially_atlas_.png?1768424512793", id:"CronopiosHcuadrGenially_atlas_"}
+		{src:"images/CachedTexturedBitmap_142.png?1768481790578", id:"CachedTexturedBitmap_142"},
+		{src:"images/CachedTexturedBitmap_144.png?1768481790578", id:"CachedTexturedBitmap_144"},
+		{src:"images/CronopiosHcuadrGenially_atlas_.png?1768481790565", id:"CronopiosHcuadrGenially_atlas_"}
 	],
 	preloads: []
 };
