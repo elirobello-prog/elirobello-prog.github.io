@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CronopiosyFamas verde_atlas_", frames: [[1015,1357,1004,12],[1015,1015,1006,340],[1034,87,53,53],[0,1015,1013,1017],[1034,0,94,85],[0,0,1032,1013]]}
+		{name:"CronopiosyFamas verde_atlas_", frames: [[0,0,1032,1013],[1015,1357,1004,12],[1015,1015,1006,340],[1034,87,53,53],[0,1015,1013,1017],[1034,0,94,85]]}
 ];
 
 
@@ -11,48 +11,48 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_80 = function() {
+(lib.CachedTexturedBitmap_100 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_81 = function() {
-	this.initialize(img.CachedTexturedBitmap_81);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2076,1015);
-
-
-(lib.CachedTexturedBitmap_82 = function() {
+(lib.CachedTexturedBitmap_94 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_83 = function() {
+(lib.CachedTexturedBitmap_95 = function() {
+	this.initialize(img.CachedTexturedBitmap_95);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2076,1015);
+
+
+(lib.CachedTexturedBitmap_96 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_84 = function() {
+(lib.CachedTexturedBitmap_97 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_85 = function() {
+(lib.CachedTexturedBitmap_98 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_86 = function() {
+(lib.CachedTexturedBitmap_99 = function() {
 	this.initialize(ss["CronopiosyFamas verde_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
@@ -79,7 +79,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_86();
+	this.instance = new lib.CachedTexturedBitmap_100();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.95,1,0.5,0.5);
 
@@ -92,7 +92,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_85();
+	this.instance = new lib.CachedTexturedBitmap_99();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.5,0,0.5,0.5);
 
@@ -105,7 +105,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Cuadricula
-	this.instance = new lib.CachedTexturedBitmap_81();
+	this.instance = new lib.CachedTexturedBitmap_95();
 	this.instance.parent = this;
 	this.instance.setTransform(61.5,55.15,0.5,0.5);
 
@@ -118,7 +118,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_84();
+	this.instance = new lib.CachedTexturedBitmap_98();
 	this.instance.parent = this;
 	this.instance.setTransform(-245.35,-245.35,0.5,0.5);
 
@@ -131,7 +131,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Capa_1
-	this.instance = new lib.CachedTexturedBitmap_83();
+	this.instance = new lib.CachedTexturedBitmap_97();
 	this.instance.parent = this;
 	this.instance.setTransform(-22.3,-25.5,0.8645,0.8645);
 
@@ -396,7 +396,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.cuadrado_1.parent = this;
 	this.cuadrado_1.setTransform(305.35,298.45);
 
-	this.instance = new lib.CachedTexturedBitmap_80();
+	this.instance = new lib.CachedTexturedBitmap_94();
 	this.instance.parent = this;
 	this.instance.setTransform(598.6,54.55,0.5,0.5);
 
@@ -411,11 +411,11 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Capa_2
 	this.instance = new lib._235();
 	this.instance.parent = this;
-	this.instance.setTransform(583.95,677.35,1,1,0,0,0,252.9,83.7);
+	this.instance.setTransform(583.95,769.35,1,1,0,0,0,252.9,83.7);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_82();
+	this.instance_1 = new lib.CachedTexturedBitmap_96();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(328.4,594.15,0.5,0.5);
+	this.instance_1.setTransform(328.4,686.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -894,7 +894,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.Capa_2 = new lib.Escena_1_Capa_2();
 	this.Capa_2.name = "Capa_2";
 	this.Capa_2.parent = this;
-	this.Capa_2.setTransform(584.1,678.1,1,1,0,0,0,584.1,678.1);
+	this.Capa_2.setTransform(584.1,770.1,1,1,0,0,0,584.1,770.1);
 	this.Capa_2.depth = 0;
 	this.Capa_2.isAttachedToCamera = 0
 	this.Capa_2.isAttachedToMask = 0
@@ -905,7 +905,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.Capa_2).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(635,503.1,470.20000000000005,261.1);
+p.nominalBounds = new cjs.Rectangle(635,503.1,470.20000000000005,353.1);
 // library properties:
 lib.properties = {
 	id: '9186097CE7D8A84083C5BA05F1C1B9BC',
@@ -915,8 +915,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_81.png?1768444671166", id:"CachedTexturedBitmap_81"},
-		{src:"images/CronopiosyFamas verde_atlas_.png?1768444671146", id:"CronopiosyFamas verde_atlas_"}
+		{src:"images/CachedTexturedBitmap_95.png?1768445021952", id:"CachedTexturedBitmap_95"},
+		{src:"images/CronopiosyFamas verde_atlas_.png?1768445021931", id:"CronopiosyFamas verde_atlas_"}
 	],
 	preloads: []
 };
